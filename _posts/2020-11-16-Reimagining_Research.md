@@ -1,4 +1,4 @@
 ---
 layout: post
-title: Postfix Calculator Lab
+title: Reimagining Research
 ---
