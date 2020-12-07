@@ -68,3 +68,6 @@ Beds Per County Arragned Most to Least:
 `seneca: 0`  
 `tioga: 0`  
 `washington: 0`  
+
+**Method**
+To complete this code I began by drawing from the work I had done to complete the Intro to APIs exercise. I slightly modified the code to make it a bit more general and used it as a part of a file I called Read that I imported into a program I used to take data from the API and I used a file I made called Write write it to a csv file. I then used my code from our cleaning classwork in a file called Clean and a file called Analize to make the text lowercase and flag any values that seemed to be very different from the other values and used Write to write the cleaned data to a new csv file and the flagged values to a text file. Next, I visually inspected my cleaned data and flagged values for any potentially erroneous data. I then used a file called HospitalAnalize that imported Read, Analize, and Write to calculate the number of beds in each county and arrange the county from most beds to least beds and had the program write out the data to a csv and a text file. In this lab I did my bdest to foucus alot on the reusibility of the code. All of my Hospital files are specialized to this assignment but my Read, Write, Clean, and Analize files I wrote to be more general so that I can apply them to future projects.
