@@ -7,7 +7,7 @@ Most Beds in County: New York (11813 beds)
 
 Beds Per County Arragned Most to Least:  
 Number of Hospital Beds In County:  
-`Number of Hospital Beds In County:  '
+`Number of Hospital Beds In County:  
 new york: 11813  
 kings: 6484  
 nassau: 4804  
@@ -69,4 +69,4 @@ greene: 0
 hamilton: 0  
 seneca: 0  
 tioga: 0  
-washington: 0  
+washington: 0`  
