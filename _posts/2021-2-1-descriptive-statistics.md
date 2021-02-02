@@ -13,9 +13,9 @@ This variable proved to be highly variable with a range of 161492900. The mean n
 The IQR of this data is 676753.75 making any values above 1402936.3 potential outliers. Overall, when looked at in the form of a table this data clearly shows that some countries are using significantly
 more vaccines than others.  
 
-               `countries  total_vaccines`  
+               countries  total_vaccines
 `0              Argentina        292023.0`  
-1                Austria        170144.0  
+`1                Austria        170144.0`  
 2                Bahrain        144130.0  
 3                Belgium        174307.0  
 4                 Brazil        604722.0  
