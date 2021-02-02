@@ -75,3 +75,5 @@ more vaccines than others.
 |57|        United Kingdom      | 6822981.0|
 |58|         United States      |20537990.0|
 |59|                 Wales      |  265054.0|
+
+![Violin Plot](https://drive.google.com/file/d/1YRGB50BbJmDxYPBlQXMgOZ7FX6WwdpVh/view?usp=sharing)
