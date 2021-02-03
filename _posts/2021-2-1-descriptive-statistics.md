@@ -77,9 +77,9 @@ more vaccines than others.
 |59|                 Wales      |  265054.0|  
 
 ![Violin Plot](https://drive.google.com/uc?id=1YRGB50BbJmDxYPBlQXMgOZ7FX6WwdpVh)  
-
-
-
+  
+  
+  
 Number of Vaccines Delivered Per Day (Worldwide) Between 12/13/20 and 1/24/21:
 
 The range of the number of vaccines given in a day was 58285873. This data can also be seen to bias left on the violin plot and has a mean of 13248640. The IQR for this data is 19967772 meaning any value above 51007928 could be considered outliers. The line graph relating date to number of vaccines delivered on a date also has a trend line with the equation 906133.0279402252x + -5780154.703023799, which has a positive slope indicating general growth in the number of vaccines given per day.  
