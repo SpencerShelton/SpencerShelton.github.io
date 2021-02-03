@@ -133,3 +133,32 @@ The range of the number of vaccines given in a day was 58285873. This data can a
 ![Violin Plot](https://drive.google.com/uc?id=1iCazskIitz8FamLL9SgQm32x9O991YDp)  
   
 ![Line Plot](https://drive.google.com/uc?id=1Dwo-dAaaPyLpycAPVDPMQbtDP1748-fE)
+
+**Code:**  
+
+Code for Frequency of Number of Vaccines Administered Between 12/13/20 and 1/24/21 by 60 Countries Violin Plot:
+`import seaborn as sns, matplotlib.pyplot as plt, pandas as pd, numpy as np
+
+data = pd.read_csv("country_vaccinations.csv")
+final_country_data = []
+countries = []
+out = 0
+
+for i in range(len(data)):
+    if(i < len(data) - 1):
+        if data['country'][i] != data['country'][i+1]:
+            final_country_data.append(out + 0 if np.isnan(float(data['total_vaccinations'][i])) else float(data['total_vaccinations'][i]))
+            countries.append(data['country'][i])
+            out = 0
+        else:
+            out += 0 if np.isnan(float(data['total_vaccinations'][i])) else float(data['total_vaccinations'][i])
+    else:
+        countries.append(data['country'][i])
+        final_country_data.append(out + 0 if np.isnan(float(data['total_vaccinations'][i])) else float(data['total_vaccinations'][i]))
+        
+final_country_data = pd.Series(final_country_data)
+countries = pd.Series(countries)
+graph = sns.violinplot(x=final_country_data)
+plt.xlabel("total vaccinations per country")
+plt.title("Total Vaccinations (2020-12-13 to 2021-01-24)")
+plt.show()`
