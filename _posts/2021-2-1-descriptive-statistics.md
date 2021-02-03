@@ -136,8 +136,9 @@ The range of the number of vaccines given in a day was 58285873. This data can a
 
 **Code:**  
 
-Code for Frequency of Number of Vaccines Administered Between 12/13/20 and 1/24/21 by 60 Countries Violin Plot:
-`import seaborn as sns, matplotlib.pyplot as plt, pandas as pd, numpy as np
+Code for Frequency of Number of Vaccines Administered Between 12/13/20 and 1/24/21 by 60 Countries Violin Plot:  
+```
+import seaborn as sns, matplotlib.pyplot as plt, pandas as pd, numpy as np
 
 data = pd.read_csv("country_vaccinations.csv")
 final_country_data = []
@@ -161,4 +162,5 @@ countries = pd.Series(countries)
 graph = sns.violinplot(x=final_country_data)
 plt.xlabel("total vaccinations per country")
 plt.title("Total Vaccinations (2020-12-13 to 2021-01-24)")
-plt.show()`
+plt.show()
+```  
