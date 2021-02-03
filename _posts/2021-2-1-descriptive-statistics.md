@@ -77,5 +77,5 @@ more vaccines than others.
 |59|                 Wales      |  265054.0|  
 
 
-https://drive.google.com/uc?id=1YRGB50BbJmDxYPBlQXMgOZ7FX6WwdpVh
+
 ![Violin Plot](https://drive.google.com/uc?id=1YRGB50BbJmDxYPBlQXMgOZ7FX6WwdpVh)
