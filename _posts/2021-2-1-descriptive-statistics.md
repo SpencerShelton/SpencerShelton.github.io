@@ -76,9 +76,9 @@ more vaccines than others.
 |58|         United States      |20537990.0|
 |59|                 Wales      |  265054.0|  
 
+![Violin Plot](https://drive.google.com/uc?id=1YRGB50BbJmDxYPBlQXMgOZ7FX6WwdpVh)  
 
 
-![Violin Plot](https://drive.google.com/uc?id=1YRGB50BbJmDxYPBlQXMgOZ7FX6WwdpVh)
 
 Number of Vaccines Delivered Per Day (Worldwide) Between 12/13/20 and 1/24/21:
 
@@ -128,5 +128,6 @@ The range of the number of vaccines given in a day was 58285873. This data can a
 |2021-01-21     |46341670.0|
 |2021-01-22     |50359379.0|
 |2021-01-23     |50210375.0|
-|2021-01-24     |11433287.0|
+|2021-01-24     |11433287.0|  
 
+![Violin Plot](https://drive.google.com/uc?id=1iCazskIitz8FamLL9SgQm32x9O991YDp)
