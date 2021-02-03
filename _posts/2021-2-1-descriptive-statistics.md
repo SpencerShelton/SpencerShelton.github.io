@@ -7,7 +7,7 @@ title: Descriptive Lab
 **Analysis:**  
 For this lab I chose to analize how many vaccines countries have adminstered by 1/24/21 and the trends in how many vaccines have been delivered per day.  
 
-Frequency of Number of Vaccines Administered by 1/24/21 by 60 Countries:
+Frequency of Number of Vaccines Administered Between 12/13/20 and 1/24/21 by 60 Countries:
 
 This variable proved to be highly variable with a range of 161492900. The mean number of total vacciens delivered was 1211611 but this data was heavily skewed left as can be seen in the violin plot below.
 The IQR of this data is 676753.75 making any values above 1402936.3 potential outliers. Overall, when looked at in the form of a table this data clearly shows that some countries are using significantly
@@ -79,3 +79,54 @@ more vaccines than others.
 
 
 ![Violin Plot](https://drive.google.com/uc?id=1YRGB50BbJmDxYPBlQXMgOZ7FX6WwdpVh)
+
+Number of Vaccines Delivered Per Day (Worldwide) Between 12/13/20 and 1/24/21:
+
+The range of the number of vaccines given in a day was 58285873. This data can also be seen to bias left on the violin plot and has a mean of 13248640. The IQR for this data is 19967772 meaning any value above 51007928 could be considered outliers. The line graph relating date to number of vaccines delivered on a date also has a trend line with the equation 906133.0279402252x + -5780154.703023799, which has a positive slope indicating general growth in the number of vaccines given per day.  
+
+|Dates          |Vaccines Delivered Worldwide|
+----------------|----------------------------|
+|2020-12-13     |30662.0|
+|2020-12-14     |297.0|
+|2020-12-15     |1529663.0|
+|2020-12-16     |3683.0|
+|2020-12-17     |7201.0|
+|2020-12-18     |10615.0|
+|2020-12-19     |11951.0|
+|2020-12-20     |1912217.0|
+|2020-12-21     |664316.0|
+|2020-12-22     |148455.0|
+|2020-12-23     |1211112.0|
+|2020-12-24     |298146.0|
+|2020-12-25     |338381.0|
+|2020-12-26     |2322106.0|
+|2020-12-27     |2525913.0|
+|2020-12-28     |2837836.0|
+|2020-12-29     |965883.0|
+|2020-12-30     |4068680.0|
+|2020-12-31     |6029205.0|
+|2021-01-01     |1555249.0|
+|2021-01-02     |6804925.0|
+|2021-01-03     |4828703.0|
+|2021-01-04     |7119315.0|
+|2021-01-05     |8670638.0|
+|2021-01-06     |8652788.0|
+|2021-01-07     |10920151.0|
+|2021-01-08     |12171059.0|
+|2021-01-09     |14430888.0|
+|2021-01-10     |11223371.0|
+|2021-01-11     |21496307.0|
+|2021-01-12     |22776428.0|
+|2021-01-13     |36488082.0|
+|2021-01-14     |28064683.0|
+|2021-01-15     |30887136.0|
+|2021-01-16     |18829140.0|
+|2021-01-17     |20616232.0|
+|2021-01-18     |22374196.0|
+|2021-01-19     |40234975.0|
+|2021-01-20     |58286173.0|
+|2021-01-21     |46341670.0|
+|2021-01-22     |50359379.0|
+|2021-01-23     |50210375.0|
+|2021-01-24     |11433287.0|
+
