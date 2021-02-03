@@ -130,4 +130,6 @@ The range of the number of vaccines given in a day was 58285873. This data can a
 |41|2021-01-23     |50210375.0|
 |42|2021-01-24     |11433287.0|  
 
-![Violin Plot](https://drive.google.com/uc?id=1iCazskIitz8FamLL9SgQm32x9O991YDp)
+![Violin Plot](https://drive.google.com/uc?id=1iCazskIitz8FamLL9SgQm32x9O991YDp)  
+  
+![Line Plot](https://drive.google.com/uc?id=1Dwo-dAaaPyLpycAPVDPMQbtDP1748-fE)
