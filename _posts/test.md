@@ -2,6 +2,14 @@
 layout: post
 title: test
 ---
+<!DOCTYPE html>
 <html>
-<iframe src="https://colab.research.google.com/drive/1eyIpL7VpwDjJFgczD8HE0Ef33knGx63T?usp=sharing" title="test"></iframe>
+<body>
+
+<h2>HTML Iframes</h2>
+<p>You can use the height and width attributes to specify the size of the iframe:</p>
+
+<iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+
+</body>
 </html>
